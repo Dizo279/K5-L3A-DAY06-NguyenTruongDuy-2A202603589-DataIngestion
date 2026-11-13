@@ -1,0 +1,38 @@
+{
+  "A": {
+    "dev": {
+      "count": 15,
+      "hit_at_1": 2,
+      "evidence_hit_at_3": 3
+    },
+    "test": {
+      "count": 5,
+      "hit_at_1": 1,
+      "evidence_hit_at_3": 1
+    }
+  },
+  "B": {
+    "dev": {
+      "count": 15,
+      "hit_at_1": 1,
+      "evidence_hit_at_3": 5
+    },
+    "test": {
+      "count": 5,
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    }
+  },
+  "C": {
+    "dev": {
+      "count": 15,
+      "hit_at_1": 2,
+      "evidence_hit_at_3": 5
+    },
+    "test": {
+      "count": 5,
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    }
+  }
+}
