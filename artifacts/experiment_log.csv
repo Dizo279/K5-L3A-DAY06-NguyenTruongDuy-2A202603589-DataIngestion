@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,section,year",none,"OpenRouter openai/text-embedding-3-small (1536d)","Fixed-size overlap should preserve local evidence and improve top-1 retrieval",2/15,3/15,1/5,1/5,"637 chunks; metadata 15/15 test hits; 55.07s and $0.002870 total pipeline run"
+B,paragraph,1000,0,"document_id,source,page,section,year",none,"OpenRouter openai/text-embedding-3-small (1536d)","Paragraph-oriented chunks should improve evidence coherence and top-3 coverage",1/15,5/15,0/5,0/5,"312 chunks; metadata 15/15 test hits; 55.07s and $0.002870 total pipeline run"
+C,paragraph,1000,0,"document_id,source,page,section,year","question-provided section/year filter","OpenRouter openai/text-embedding-3-small (1536d)","Metadata filtering should narrow retrieval and improve evidence coverage for scoped questions",2/15,5/15,0/5,0/5,"312 chunks; metadata 15/15 test hits; filter compliance 15/15 filter-query hits; 55.07s and $0.002870 total pipeline run"
