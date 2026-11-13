@@ -1,0 +1,37 @@
+[
+  {
+    "source_id": "cmo-october-2026",
+    "title": "Commodity Markets Outlook - October 2026",
+    "author": "Prospects Group, World Bank",
+    "source_path_or_url": "data/raw/CMO-October-2026.pdf",
+    "license_or_permission": "Verify from the official World Bank source and copyright page",
+    "accessed_at": "2026-11-13",
+    "document_type": "economic_report",
+    "language": "en",
+    "physical_pages": 70,
+    "content_page_range": {
+      "first": 9,
+      "last": 66,
+      "count": 58,
+      "rule": "Count report content pages; exclude cover, blank pages, contents, references and back cover"
+    },
+    "metadata_fields": {
+      "section": {
+        "source": "Headings printed in the report",
+        "values": [
+          "Executive Summary",
+          "Energy",
+          "Metals",
+          "Agriculture",
+          "Precious Metals",
+          "Fertilizers",
+          "Special Focus"
+        ]
+      },
+      "year": {
+        "source": "Report title and publication date",
+        "value": 2026
+      }
+    }
+  }
+]
